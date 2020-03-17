@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Lora:400,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+h1{
+    color: #292929;
+    font-size: 4rem;
+    font-family: 'Lora', serif;
+    line-height: 6rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Cabin', sans-serif;
+}
+h4{
+    font-size: 1.9rem;
+    font-family: 'Lora', serif;
+}
+p,li{
+    font-size: 1.8rem;
+    font-family: 'Lora', serif;
+}
+li{
+    margin: 1rem auto;
+}
+a{
+    color:#00CC5F;
+}
+
+.main{
+    width: 60%;
+    margin: auto;
+}
+
+section{
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    .main{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .main{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .main{
+        width: 90%;
+    }
+}
