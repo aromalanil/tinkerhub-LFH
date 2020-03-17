@@ -34,6 +34,24 @@ a{
 .main{
     width: 60%;
     margin: auto;
+    transition: .5s;
+}
+
+#cover-img{
+    width: 100%;
+    height:350px;
+    object-fit: cover;
+}
+figure{
+    margin: 5rem auto;
+    padding: 0;
+}
+figcaption{
+    font-size: 1.7rem;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-style: italic;
+    margin-top: .5rem;
 }
 
 section{
@@ -42,21 +60,39 @@ section{
 
 @media only screen and (max-width: 1200px) 
 {
+    html{
+        font-size: 9.3px;
+    }
     .main{
         width: 70%;
+    }
+    #cover-img{
+        height:300px;
     }
 }
 
 @media only screen and (max-width: 1000px) 
 {
+    html{
+        font-size: 8.8px;
+    }
     .main{
         width: 80%;
+    }
+    #cover-img{
+        height:250px;
     }
 }
 
 @media only screen and (max-width: 600px) 
 {
+    html{
+        font-size: 8px;
+    }
     .main{
         width: 90%;
+    }
+    #cover-img{
+        height:200px;
     }
 }
